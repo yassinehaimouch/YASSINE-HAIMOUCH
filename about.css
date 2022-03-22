@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+    /* --firstcolor : #202023;
+    --secondcolor : #424464;
+    --thirdcolor : #AAAABC; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121212;
+}
+/* ########################### NAV BAR ########################### */
+.nav-link{
+    text-decoration: none;
+    color: #AAAABC;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 0.5s;
+}
+.nav-item{
+    list-style: none;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu{
+    display: flex;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.brand{
+    margin-top: 8px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    cursor: pointer;
+    color: #AAAABC;
+    user-select: none;
+    text-decoration: none;
+}
+
+.bar{
+    display: flex;
+    height: 3px;
+    margin: 5px auto;
+    width: 26px;
+    background-color: #fff;
+}
+.humberger{
+    display: none;
+}
+
+/* ########################### SECTION-1 ########################### */
+
+
+
+.container-1 p{
+    font-family: Sora, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 100px;
+    color: #AAAABC;
+}
+.about{
+    font-family: Sora, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    margin: 100px 0px;
+    color: #cdcdff;
+
+
+}
+.title{
+    font-family: Sora, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #cdcdff;
+
+}
+.container-1{
+    width: 40%;
+}
+.parent-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ########################### SECTION-2 ########################### */
+
+.sct-2{
+    margin-top: 150px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+  
+.line {
+    border: 0.5px solid rgb(63, 63, 63);
+    display: block;
+    width: 50%;
+}
+  
+  .text {
+    background: #121212;
+    color: #cdcdff;
+    font-family: Sora, Tahoma, sans-serif;
+    font-size: 28px;
+    padding: 25px 50px;
+    position: absolute;
+}
+
+
+.txt-p p{
+    font-family: Sora, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAABC;
+    width: 42%;
+    text-align: center;
+    
+}
+.txt-p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.txt-icons{
+    font-family: Sora, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAABC;
+    display: grid;
+    justify-items: center;
+}
+
+.icon{
+    font-size: 80px;
+    color: #AAAABC;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.icon::after:hover{
+    transition: 0.5s;
+}
+
+.icons{
+    width: 40%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 5px;
+    row-gap: 50px;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.icon-1{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.html:hover{
+    color: #E44D26;
+    transition: 0.5s;
+}
+.css:hover{
+    color: #2965f1;
+    transition: 0.5s;
+}
+.sass:hover{
+    color: #c69;
+    transition: 0.5s;
+}
+.js:hover{
+    color: #F7DF1E;
+    transition: 0.5s;
+}
+.react:hover{
+    color: #61DBFB;
+    transition: 0.5s;
+}
+.nodejs:hover{
+    color: #339933;
+    transition: 0.5s;
+}
+.figma:hover{
+    color: #A259FF;
+    transition: 0.5s;
+}
+.wp:hover{
+    color: #21759b;
+    transition: 0.5s;
+}
+
+/* ########################### FOOTER ########################### */
+
+footer{
+    margin-bottom: 10px;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+}
+.container-footer a{
+    color: #AAAABC;
+    text-decoration: none;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+.container-footer a:hover{
+    color: #fff;
+}
+
+.rights{
+    color: #AAAABC;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.iconn{
+    margin-right: 5px;
+}
+.hrr{
+    border: 0.5px solid #AAAABC;
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+    margin-top:200px;
+    margin-bottom: 100px;
+}
+
+/* ########################### RESPONSIVITY ########################### */
+
+@media screen and (max-width: 1250px){
+    .container-1{
+        width: 0%;
+        margin-bottom: 0px;
+    }
+    .container-1 p{
+        font-size: 16px;
+    }
+    .about{
+        font-size: 56px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .container-1{
+        width: 40%;
+    }
+    .box-1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .icons{
+        width: 50%;
+        margin: 0px 20px;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .box{
+        margin-bottom: 50px;
+    }
+    .txt-p p{
+        width: 80%;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width : 700px){
+    .container-1 p{
+        font-size: 16px;
+    }
+    .about{
+        font-size: 56px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .container-1{
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    .box-1{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .icons{
+        width: 100%;
+        margin: 0px 20px;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .txt-p p{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .box{
+        margin-bottom: 50px;
+    }
+    .icon{
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .container-1{
+        width: 0%;
+        margin-bottom: 0px;
+
+    }
+    .container-1 p{
+        font-size: 16px;
+    }
+    .about{
+        font-size: 56px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .container-1{
+        width: 80%;
+    }
+    .box-1{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .icons{
+        width: 100%;
+        margin: 0px 50px;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .txt-p p{
+        width: 80%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .box{
+        margin-bottom: 50px;
+    }
+    .icon{
+        font-size: 50px;
+    }
+
+}
+@media screen and (max-width: 373px) {
+    .text{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 361px) {
+    .text{
+        font-size: 22px;
+    }
+}
+
+/* ########################### END ########################### */

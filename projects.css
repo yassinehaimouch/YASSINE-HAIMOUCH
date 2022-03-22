@@ -182,6 +182,10 @@ body{
     color: #A259FF;
     transition: 0.5s;
 }
+.elementor:hover{
+    color: #92003B;
+    transition: 0.5s;
+}
 .figma{
     font-size: 28px;
 }
